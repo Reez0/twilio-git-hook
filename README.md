@@ -1,7 +1,7 @@
 # twilio-git-hook
 A python git hook to send a message over WhatsApp whenever you do a git push
 
-1. In your .git directory change pre-push.sample to pre-push
+1. In your .git/hooks directory change pre-push.sample to pre-push
 2. Your pre-push should be something like this on Windows. Not sure about Linux.
 
 `#!/bin/sh`
